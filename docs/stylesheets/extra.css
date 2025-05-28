@@ -1,0 +1,11 @@
+:root  > * {
+    --md-primary-fg-color:        #f4de70;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #90030C;
+  }
+
+/* Force header (top nav bar) text to be black */
+.md-header__title,
+.md-header__button {
+  color: black !important;
+}
