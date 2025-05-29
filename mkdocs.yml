@@ -1,4 +1,4 @@
-site_name: Great Yellow Engineering Documentation
+site_name: Great Yellow Eng Docs
 site_url: https://greatyellow.earth/docs
 theme:
   name: material
@@ -6,6 +6,9 @@ theme:
   favicon: assets/favicon.ico
   features:
   - navigation.footer
+  - content.code.copy
+  - content.code.select
+  - content.code.annotate
   palette:
     # Dark Mode
     - scheme: slate
@@ -25,10 +28,14 @@ theme:
 plugins:
   - search
 markdown_extensions:
+  - tables
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -46,10 +53,14 @@ markdown_extensions:
       alternate_style: true
 extra_css:
   - stylesheets/extra.css
+  - css/status-icons.css
 extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/great-yellow
     - icon: fontawesome/solid/globe
       link: https://greatyellow.earth
+  status:
+    draft: draft          # Shows a pencil/edit icon
+    approved: approved  # Shows a checkmark icon
 copyright: Copyright &copy; 2025 Great Yellow
