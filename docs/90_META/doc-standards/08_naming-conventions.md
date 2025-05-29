@@ -1,5 +1,5 @@
 ---
-title: "MET-002 Conventions & Naming"
+title: "Naming Conventions"
 owner: "joe.southin@gmail.com"
 reviewers: ["joe.southin@gmail.com"]
 status: approved

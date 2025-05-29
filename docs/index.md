@@ -1,5 +1,5 @@
 ---
-title: "MET-001 Welcome to Great Yellow Eng Docs"
+title: "Welcome"
 owner: "joe.southin@gmail.com"
 reviewers: ["joe.southin@gmail.com"]
 status: approved

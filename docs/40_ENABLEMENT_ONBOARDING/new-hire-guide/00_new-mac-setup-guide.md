@@ -1,5 +1,5 @@
 ---
-title: "ONB-002 New Mac Setup"
+title: "New Mac Setup Guide"
 owner: "joe.southin@gmail.com"
 reviewers: ["joe.southin@gmail.com"]
 status: draft
